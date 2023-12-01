@@ -13,8 +13,8 @@ export const ContactListElement = ({ name, number, id, onClick }) => {
 };
 
 ContactListElement.propTypes = {
-  name: PropTypes.string,
-  number: PropTypes.string,
-  id: PropTypes.string,
-  onClick: PropTypes.func,
+  name: PropTypes.string.isRequired,
+  number: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
